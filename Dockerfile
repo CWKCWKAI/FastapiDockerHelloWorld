@@ -7,7 +7,7 @@ ENV TESTCLIENT="THISISTEST CLIENT"
 ENV TESTSECRET="THISISTEST SECRET"
 
 # get code from repo
-RUN git clone git@bitbucket.org:User/repo.git
+RUN git clone https://github.com/CWKCWKAI/FastapiDockerHelloWorld.git
 
 # install python packages
 RUN python -m pip install requirements.txt
